@@ -17,7 +17,7 @@
 	ms.author="garye"/>
 
 
-# Azure Machine Learning Sample: Color quantization using K-Means clustering
+# Azure Machine Learning sample: Color quantization using K-Means clustering
 
 >[AZURE.NOTE]
 >The [Sample Experiment] and [Sample Dataset] associated with this model are available in ML Studio. See below for more details.
@@ -64,7 +64,7 @@ As it's visible, the more color clusters, the more colors match the original ima
 
 ##Code to convert images to CSV and reverse
 
-In order to feed the images into ML Studio, we wrote a simple convertor code which can convert image files to a csv format that ML Studio can use, and also one which converts them back to an image. Please feel free to use the following code. In the future we are planning to add a module for reading in images as well. 
+To feed the images into Machine Learning Studio, we wrote a simple convertor code which can convert image files to a csv format that Machine Learning Studio can use, and also one which converts them back to an image. Please feel free to use the following code. In the future we are planning to add a module for reading in images as well. 
 
 	using System;
 	using System.Collections.Generic;
